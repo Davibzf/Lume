@@ -32,3 +32,5 @@ O script verifica SHA256 da fonte oficial, compila para Windows x64 e gera a con
 O workflow do repositório executa testes e publica artifacts de compilação. Tags `v*` geram uma release com os pacotes e fontes correspondentes. Para mudar a versão, atualize `version.py` e o `PRODUCT_CODE` no instalador. Preserve `UPGRADE_CODE`, GUIDs dos componentes existentes e a pasta `%LOCALAPPDATA%\TranscreveLocal`.
 
 Não versionar `vendor`, modelos, mídia, logs ou arquivos de saída. Não publicar o executável sem passar no smoke test e sem os avisos/fontes dos componentes de terceiros.
+
+Ao trocar a versão ou a receita do FFmpeg, valide o binário produzido e atualize os hashes em `runtime-lock.json`. A release verifica se os arquivos empacotados correspondem ao lock e inclui o arquivo-fonte oficial. Os hashes fixam o runtime da release; não são uma promessa de binários idênticos em compiladores diferentes.
