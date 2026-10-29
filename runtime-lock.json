@@ -1,0 +1,20 @@
+{
+  "version": "1.4.0",
+  "files": [
+    {
+      "name": "ffmpeg.exe",
+      "url": "https://github.com/Davibzf/Lume/releases/download/v1.4.0/ffmpeg.exe",
+      "sha256": "7755578e4ee279903a769a999dc1ee1ff3870447fe846d43c1af7aeb5424f69a"
+    },
+    {
+      "name": "FFmpeg-build.txt",
+      "url": "https://github.com/Davibzf/Lume/releases/download/v1.4.0/FFmpeg-build.txt",
+      "sha256": "6e9edfdc912ce35af54b299cf732d3a09bbac3e569b90b4421074e8bc702cfe8"
+    },
+    {
+      "name": "FFmpeg-LGPL-2.1.txt",
+      "url": "https://github.com/Davibzf/Lume/releases/download/v1.4.0/FFmpeg-LGPL-2.1.txt",
+      "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+    }
+  ]
+}

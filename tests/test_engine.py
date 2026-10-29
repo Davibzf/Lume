@@ -99,7 +99,7 @@ class PipelineTests(unittest.TestCase):
             with patch.object(manager, 'ensure', return_value=root / 'model.bin'), patch('engine.run_process', side_effect=execute):
                 result = engine.Transcriber(root, manager).transcribe(source, 'turbo', 'pt', lambda *args: events.append(args), threading.Event())
             self.assertEqual(result.text, 'Olá mundo.')
-            self.assertIn(str(source), calls[0])
+            self.assertIn(str(source.resolve()), calls[0])
             self.assertIn('-ng', calls[1])
             self.assertIn(('transcribe', .65, 'Transcrevendo localmente…'), events)
             self.assertFalse(Path(calls[0][-1]).exists())
