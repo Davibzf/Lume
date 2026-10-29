@@ -1,0 +1,28 @@
+name: Reportar problema
+description: Conte o que aconteceu, sem enviar gravações ou dados pessoais.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Versão do Lume
+      placeholder: Ex. 1.4.0
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: O que aconteceu e como reproduzir?
+      description: Inclua o comportamento esperado e o resultado observado.
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Windows, processador e memória
+      placeholder: Ex. Windows 11 x64, Ryzen 5, 16 GB
+  - type: textarea
+    id: error
+    attributes:
+      label: Mensagem de erro
+      description: Remova nomes de usuários, caminhos pessoais, tokens e conteúdo de transcrições antes de enviar.

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Lume — Transcrição Local</title>
+  <desc id="desc">Suas gravações, em palavras. Um aplicativo livre para transcrever áudio e vídeo no computador.</desc>
+  <rect width="1200" height="360" rx="28" fill="#faf9f5"/>
+  <rect x="850" width="350" height="360" rx="28" fill="#252522"/>
+  <path d="M925 155v50m30-85v120m30-145v170m30-135v100m30-65v30" stroke="#d1876b" stroke-width="14" stroke-linecap="round"/>
+  <text x="60" y="76" font-family="Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="4" fill="#a9583e">TRANSCRIÇÃO LOCAL · OPEN SOURCE</text>
+  <text x="56" y="175" font-family="Georgia,serif" font-size="86" fill="#252522">Lume</text>
+  <text x="60" y="235" font-family="Segoe UI,Arial,sans-serif" font-size="29" fill="#39352f">Suas gravações, em palavras.</text>
+  <text x="60" y="293" font-family="Segoe UI,Arial,sans-serif" font-size="19" fill="#6c6a64">Áudio e vídeo → texto · Sem cobrança por minuto</text>
+</svg>
