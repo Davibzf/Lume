@@ -1,9 +1,9 @@
-<p align="center"><img src="docs/brand.svg" alt="Lume — suas gravações, em palavras" width="100%"></p>
+<p align="center"><img src="docs/brand.png" alt="Lume — suas gravações, em palavras" width="100%"></p>
 
 <p align="center">
-  <a href="https://github.com/Davibzf/Lume/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/Davibzf/Lume?label=baixar&amp;color=a9583e"></a>
-  <a href="LICENSE"><img alt="Licença MIT" src="https://img.shields.io/badge/licença-MIT-a9583e"></a>
-  <img alt="Windows x64" src="https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-252522">
+  <a href="https://github.com/Davibzf/Lume/releases/latest/download/Lume-Setup.exe"><strong>Baixar para Windows</strong></a> ·
+  <a href="https://github.com/Davibzf/Lume/releases">Versões</a> ·
+  <a href="LICENSE">Licença MIT</a>
 </p>
 
 O **Lume** transforma vídeos e áudios em texto no seu computador, usando Whisper. Arraste uma gravação, escolha a qualidade e transcreva. Sem assinatura, cobrança por minuto ou envio da mídia para serviços externos.
